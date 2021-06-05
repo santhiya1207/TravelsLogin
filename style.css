@@ -1,0 +1,86 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+.left-col{
+    float: left;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.left-col h1{
+   
+    margin: 45px;
+    font-weight: bold;
+}
+.left-col img{
+    width: 100%;
+    height: 100%;
+    margin-left: 45px;
+    
+}
+
+.right-col{
+    float: right;
+    width: 45%;
+    height: 100%;
+    text-align: center;
+}
+
+.right-col .btn2 input[type="button"]{
+    width: 140px;
+    top: 100px;
+    right: 20px;
+    display: inline-block;
+    background: #ffc200;
+    border: none;
+    color; black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 30px;
+    margin: 30px;
+    cursor: pointer;
+    border-radius: none; !important;
+}
+
+.right-col h1{
+    padding-top: 78px;
+    color: #7ebad2;
+}
+.right-col p{
+    padding-top: 5px;
+    font-weight: bold;
+}
+.right-col .form-btn input[type="email"], input[type="password"]{
+    width: 250px;
+    height: 50px;
+    padding-left:20px;
+    margin: 14px;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.right-col .form-btn input[type="button"]{
+    width: 250px;
+    height: 50px;
+    background: #ffc200;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+.right-col .end p{
+    font-weight: bold;
+}
+
